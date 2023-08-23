@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import styles from './Landingpagenavbar.module.css';
 
+import logo from "../img/tosmos.png";
+
 const Landingpagenavbar = () => {
   const [click, setClick] = useState(false);
 
