@@ -1,10 +1,18 @@
-import Landingpagenavbar from "./navbars/landingpagenavbar";
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Landingpagenavbar from './navbars/Landingpagenavbar';
 
 function App() {
   return (
-    <div className="App">
-    <Landingpagenavbar/>
-    </div>
+    <BrowserRouter>
+    <Landingpagenavbar />
+    <Routes>
+      
+      
+
+        
+      </Routes>
+    </BrowserRouter>
   );
 }
 

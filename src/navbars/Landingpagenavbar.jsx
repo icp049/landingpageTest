@@ -5,7 +5,7 @@ import {
   ExitToAppOutlined, // 1. Import the ExitToAppOutlined icon
 } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
-
+import styled from '@emotion/styled';
 const Landingpagenavbar = () => {
 
 
@@ -42,8 +42,8 @@ const Landingpagenavbar = () => {
           columnGap="20px"
           zIndex="2"
         >
-          <Link to="/myprofile">My Profile</Link>
-          <Link to="/message">Messages</Link>
+          <Link to="">My Profile</Link>
+          <Link to="">Messages</Link>
           <Link to="">Listings</Link>
 
           <IconButton sx={{ color: "black" }}>
@@ -51,7 +51,7 @@ const Landingpagenavbar = () => {
           </IconButton>
 
           {/* Logout Button */}
-          <IconButton sx={{ color: "black" }} onClick={handleLogout}>
+          <IconButton sx={{ color: "black" }} >
             <ExitToAppOutlined />
           </IconButton>
         </Box>
