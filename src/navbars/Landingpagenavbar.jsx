@@ -6,7 +6,7 @@ import {
 } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 
-const landingpagenavbar = () => {
+const Landingpagenavbar = () => {
 
 
   return (
@@ -60,4 +60,4 @@ const landingpagenavbar = () => {
   );
 };
 
-export default landingpagenavbar;
+export default Landingpagenavbar;
