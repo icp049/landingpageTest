@@ -58,7 +58,7 @@
 }
 
 .header .navbar .hamburger {
-    margin-left: 1rem; /* Keep the hamburger menu aligned to the left */
+    margin-right: 1rem; /* Keep the hamburger menu aligned to the left */
 }
 
 @media screen and (max-width: 940px) {
